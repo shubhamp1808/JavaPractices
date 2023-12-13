@@ -1,0 +1,312 @@
+what is the Polymorphism ?
+what is the Abstraction in java ?
+what is encapsulation ?
+how many types of polymorphism in java ?
+what is difference abstract class and interface?
+how to achieve multiple inheritance in java?
+
+what is difference b/w hashtable and hashmap ?
+what is the differnce b/w linked list and Arraylist ?
+how to choose between arraylist and linkedlist ?
+what is differnce between Checked  and unchecked exception ? 
+Explain the exception hierarchy ?
+how to create a singleton class?
+How to create immutable class ?
+What is differene between comporable and comprator ?
+How will you short the list of employee ?
+List<Employee > list=new ArrayList<>();
+Question -2
+  String s1 = new String( "Test" );
+  String s2 = new String( "Test" );
+  System.out.println( s1 == s2 ); 
+  System.out.println( s1.equals( s2 )); 
+
+Question -3
+public class CollectionSort {
+ public static void main(String[] args) {
+  List values = new ArrayList();
+  values.add("Singapore");
+  values.add(737);
+  values.add(2323f);
+ 
+  Collections.sort(values);
+  System.out.println(values);
+ 
+ }
+ 
+}
+Question -4
+class Main {
+    public static void main(String args[]) {
+        Scaler s = new Scaler(5);
+    }
+}
+class InterviewBit{
+    InterviewBit(){
+        System.out.println(" Welcome to InterviewBit ");
+    }
+}
+class Scaler extends InterviewBit{
+    Scaler(){
+        System.out.println(" Welcome to Scaler Academy ");
+    }
+    Scaler(int x){
+        this();
+        super();
+        System.out.println(" Welcome to Scaler Academy 2");
+    }
+}
+Question -5
+How many objects will be created ?
+String e = "JDK"; 
+String f = "JDK";
+String  g = "Job"; 
+String h =new String("EMPLOYEE");
+Question-8
+ String w1 ="Sarat";
+ String w2 ="Sarat";
+ String w3 = new String("Sarat");
+ System.out.println(w1.hashCode());   
+ System.out.println(w2.hashCode());   
+ System.out.println(w3.hashCode());
+Question-9 
+ int x=0;
+ if(x)
+ S.O.P("hello");
+ else
+  S.O.P("Hi");
+Question-12
+public class Test {
+  public static void main(String[] args) {
+   System.out.println(exceptionTest());
+  }
+  public static int exceptionTest()
+  {
+   int i=6;
+   try{
+    i=50;
+    return i;
+   }
+   finally
+   {
+    i=20;
+    System.out.println("In finally block");
+    return i;
+   }
+ 
+  }
+}
+Question 14
+public class Test
+{
+    public static void main(String args[])
+    {
+        ParentClass pc = new ChildClass();
+
+        pc.display();
+    }
+}
+
+class ParentClass
+{
+
+    public static void display()
+    {
+        System.out.printf("Parent class");
+    }
+}
+//child class
+class ChildClass extends ParentClass
+{
+
+    public  void display()
+    {
+        System.out.println("Child class");
+    }
+}
+Question-15
+public class TestStatic {
+     int x=0;
+
+    public static void main(String[] args) {
+        System.out.println(x);
+    }
+     void  m1(){
+        System.out.println(x);
+    }
+}
+Question-16
+class Test{
+    int x=10;
+    static int y=20;
+    public static void main(String []args){
+
+    Test t1=new Test();
+    t1.x=888;
+    t1.y=999;
+
+    Test t2=new Test();
+    System.out.println(t2.x+","+t2.y);
+    }
+}
+Question 25
+public class TestClass {
+public static void main(String[] args) {
+     someMethod(null);
+}
+public static void someMethod(Object o) {
+ System.out.println("Object method Invoked");
+}
+public static void someMethod(String s) {
+ System.out.println("String method Invoked");
+}
+}
+
+
+
+ORACLE
+reverse the string, remove duplicates
+Hashset vs Treeset
+Custom sorting in treeset
+static & final keyword
+what if method is made final
+Polymorphism in JAVA
+exceptions
+comparable vs comparator
+ways to create thread
+use of autowire
+IOC container in springboot
+JPA custom query native query
+@Modifying vs @Transactional
+
+
+MINDFREE SOLN
+2 beans with same type, what happen if autowired
+scopes of bean
+profiling in spring
+Controller vs RestController
+PathVariable vs QueryParam
+Outputstreams InputStreams etc.
+difference between writing jpa query, querymethods, native query
+how to tell application to make table, columns, key, associations
+Query methods
+delete vs truncate
+indexing
+java 8 features
+Joins
+internal working of hashmap
+linkedlist vs arraylist
+scenario for runnable interface & Thread class
+spring security
+Authorization in spring
+maven clean install
+how to ignore dependency in spring
+fetch vs pull in git
+query for name start with sh, where name include %
+print all duplicates in string
+
+
+COGNIZANT
+how to create a microservice and how to bind all microservices
+default design pattern of spring container
+what are the types of dependency injection in spring
+@autowired comes under which category
+how Rest url is constructed
+How do you create connectivity to db through code
+annotation to create and handle exceptions  in springboot
+abilities of spring to monitor microservices
+environment properties
+features of java 8
+functional interface vs normal interface
+why interfaces are intoduced
+what is inheritance
+java use multiple inheritance or not
+runtime polymorphism
+usage of throws and throw
+ways to create instance of class
+
+
+AMDOCS
+advantage of using json in REST api vs Soap api
+serialization vs deserialization
+typecasting in java
+can we override private methods in java
+what is method hiding
+what does enableautoconfiguration do
+how can you exclude tomcat server
+what is api gateway
+what is method overloading
+override constructors in java
+how can i create empty table from existing table in sql
+how will i find second maximum salary
+
+Ericsson
+purpose of APIs
+
+
+DHWANI RIS
+What is data structures
+use case of linked list
+linked list to fetch data from tables
+use case of hashmap
+sort arraylist without defined methods
+what is stored procedures
+stored procedures vs functions
+what is trigger in sql
+sql joins
+use case of self join
+how to delete duplicate rows from a table
+nth highest salary if multiple data present for that salary
+having vs where clause
+jar vs war
+jwt spring boot
+csrf in spring boot
+use case of encapsulation
+
+
+NAGARRO 2nd Round
+custom checked exception and questions on exception
+how to tell jvm to check exception while compile time
+instances made by new keyword can have same hashcode
+excel with 10 mil strings, which choice for store it to java collection
+hashmap internal working wrt java 7 vs 8
+applicationcontext vs beanfactory
+comparable vs comparator
+qualifier annotation
+hibernate first level cache vs second level cache
+if componentscan is fogetten, then will bean be initialized
+Junits
+messaging system like kafka, jms
+40-45 beans in my application, pring hi & bye message whenever starting stopping the tomcat
+lifecycles of beans
+4 microservices, 1-2-3-4-3-2-1-UI , if error in 3, how error tracking happens
+
+
+RATEGAIN
+what is object oriented programming
+what is java and how it is different from other language
+oops concept
+how springboot different than java, important features of springboot
+actuators
+what is the use of maven
+login & security
+external configurations in springboot
+how to setup springboot application
+what annotations used
+ways to connect springboot application to databases
+JPA starters
+JPA vs JDBC
+whitelabel error page
+cache in REST api
+AWS solutions
+Messagequeue
+architecture of microservices
+
+
+PRACTICE
+Collection API vs Stream API
+Method reference
+Solid principles
+SpringBoot & features
+Actuator
+@SpringBootApplication internally work

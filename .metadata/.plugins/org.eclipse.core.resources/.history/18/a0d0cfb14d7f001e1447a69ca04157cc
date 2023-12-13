@@ -1,0 +1,11 @@
+package HashMapDebug;
+
+import java.util.HashMap;
+
+public class HashMapInternalExplain {
+	
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+	}
+
+}

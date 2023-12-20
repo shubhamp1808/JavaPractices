@@ -1,7 +1,5 @@
 package Practices;
 
-import java.util.Map;
-
 public class CheckTest {
 
 		public static void main(String[] args) {
@@ -21,6 +19,6 @@ public class CheckTest {
 		 System.out.println(w2.hashCode());   
 		 System.out.println(w3.hashCode());
 		 
-		 Map<String, String> map = null;
+		//  Map<String, String> map = null;
 }
 }

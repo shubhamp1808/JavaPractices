@@ -9,6 +9,7 @@ public class SingletonClassDemo {
 //		Demo demo = new Demo();
 //		Demo demo1 = new Demo();
 		Demo demo = Demo.getObject();
+		System.out.println(demo);
 	}
 
 }

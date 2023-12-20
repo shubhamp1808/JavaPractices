@@ -1,11 +1,9 @@
 package Practices;
 
-import java.util.Scanner;
 
 public class BarChart {
 
 	public static void main(String[] args) {
-		Scanner br = new Scanner(System.in);
 	    int n = 5;
 	    int[] arr = {3, 1, 0, 7, 5};
 

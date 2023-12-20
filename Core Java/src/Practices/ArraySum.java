@@ -27,7 +27,7 @@ public class ArraySum {
 //		return false;
 		
 		int A[] = {3,2,5,4,9};
-		int B[] = {9,5,3,3};
+		// int B[] = {9,5,3,3};
 		
 		for(int i =0; i<=A.length; i++) {
 			

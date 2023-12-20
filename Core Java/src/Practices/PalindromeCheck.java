@@ -5,9 +5,10 @@ package Practices;
 import java.util.*;
 public class PalindromeCheck { 
    public static void main(String args[]) { 
-       Scanner s = new Scanner(System.in);
-       String word = s.nextLine();
-       System.out.println("Is "+word+" palindrome? - "+isWordPalindrome(word));
+       try (Scanner s = new Scanner(System.in)) {
+        String word = s.nextLine();
+           System.out.println("Is "+word+" palindrome? - "+isWordPalindrome(word));
+    }
    } 
    
    

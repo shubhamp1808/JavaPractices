@@ -310,3 +310,21 @@ Solid principles
 SpringBoot & features
 Actuator
 @SpringBootApplication internally work
+
+---------------------------------------------------------------------------------------------------------------------------
+
+NAGARRO 2023
+Multithread to print odd even number in right sequence
+Java Streams // person id name, id unique, name same, map key--> name, value--> list of person having that name
+SQL second highest salary
+ThreadExecuters, Executor framework
+Which collection provides constant time for insertion & deletion & searching
+which data structures is used to represent hierarchy between elements
+callable vs runnable
+left outer join vs inner join
+REST fullform, PUT vs PATCH
+Microservices what and why
+how microservices communicate
+Hibernate second level caching
+SpringBoot version, @Conditional usage
+write spring MVC CRUD operation, URL as per REST standards

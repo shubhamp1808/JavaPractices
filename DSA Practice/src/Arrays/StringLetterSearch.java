@@ -1,4 +1,4 @@
-package Practices;
+package Arrays;
 
 /*
 You are given a string X and a string containing single character Y. Your task is to find the largest distance between 

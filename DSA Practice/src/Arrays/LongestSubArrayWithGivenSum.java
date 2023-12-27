@@ -1,4 +1,4 @@
-package Practices;
+package Arrays;
 
 // Better is the Optimal soln for the array with positives & negatives elements
 

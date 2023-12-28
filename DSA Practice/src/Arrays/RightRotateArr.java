@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.Arrays;
 
+//Right rotate an array by 1 or K place
+
 public class RightRotateArr {
     public static void main(String[] args) {
         int[] sample ={2,3,6,119,1,2,232,8,4,7};

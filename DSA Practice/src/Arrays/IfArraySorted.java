@@ -1,5 +1,7 @@
 package Arrays;
 
+// Check if Array is sorted
+
 public class IfArraySorted {
     public static void main(String[] args) {
         int[] sample ={2,3,6,119,232,847};

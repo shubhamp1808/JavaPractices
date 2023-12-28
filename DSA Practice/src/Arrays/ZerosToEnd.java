@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.*;
 
+// Move Zeros to End
+
 public class ZerosToEnd {
     public static void main(String[] args) {
         int[] sample ={2,3,6,0,1,0,0,8,4,0};

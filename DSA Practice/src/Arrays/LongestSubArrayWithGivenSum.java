@@ -1,6 +1,6 @@
 package Arrays;
 
-// Better is the Optimal soln for the array with positives & negatives elements
+// Longest Subarray with given Sum K
 
 public class LongestSubArrayWithGivenSum {
     public static void main(String[] args) {
@@ -29,6 +29,7 @@ public class LongestSubArrayWithGivenSum {
     // }
 
     // Better --> O(N)/O(N)
+    // Better is the Optimal soln for the array with positives & negatives elements
     // static int findLongestSubarray(int[] a, int n, int k) {
     // int maxLen = 0;
     // int sum = 0;

@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.Arrays;
 
+// Remove duplicates from a sorted Array
+
 public class RemDuplicatesSortedArr {
     public static void main(String[] args) {
         int[] sample ={2,3,3,119,119,847,847,847};

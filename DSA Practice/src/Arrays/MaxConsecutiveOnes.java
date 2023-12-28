@@ -1,5 +1,7 @@
 package Arrays;
 
+// Maximum Consecutive One's in an Array
+
 public class MaxConsecutiveOnes {
     public static void main(String[] args) {
         int[] sample = { 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1 };

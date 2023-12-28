@@ -3,6 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 //Left rotate an array by 1 or K place
+
 public class LeftRotateArr {
     public static void main(String[] args) {
         int[] sample ={2,3,6,119,1,2,232,8,4,7};

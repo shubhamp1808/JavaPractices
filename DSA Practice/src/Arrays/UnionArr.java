@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.*;
 
+// Find the Union Array
+
 public class UnionArr {
     public static void main(String[] args) {
         int[] arr1 = { 2, 3, 6, 119, 232, 847 };

@@ -1,5 +1,7 @@
 package Arrays;
 
+// Find Missing number in an Array
+
 public class MissingNumber {
     public static void main(String[] args) {
         int[] sample = { 1, 2, 4, 5 };

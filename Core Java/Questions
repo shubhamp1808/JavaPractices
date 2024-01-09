@@ -328,3 +328,31 @@ how microservices communicate
 Hibernate second level caching
 SpringBoot version, @Conditional usage
 write spring MVC CRUD operation, URL as per REST standards
+
+
+QUEST DIAGNOSTICS
+Features of JAVA 8
+remove duplicates from list with JAVA 8
+String is thread safe or not
+StringBuffer vs StringBuilder
+NoClassDefFoundError
+Try without Catch block
+when will Finally block not execute
+Hash Collision
+ConcurrentModificationException
+ConcurrentHashMap
+Char or String array to store Password
+Design Patterns
+Unique key vs Primary key
+nvl functions
+UNION vs UNION ALL
+Get latest 5 records in Oracle
+SOAP vs REST, which is more secure
+PUT vs POST, idempotent
+JSON data types
+Spring beans thread safe, how to make it
+why SpringBoot
+Spring Actuator
+EJBs
+how to make .jar or .war file
+run jar file using cmd

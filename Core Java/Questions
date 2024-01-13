@@ -313,6 +313,10 @@ Actuator
 
 ---------------------------------------------------------------------------------------------------------------------------
 
+CARS24
+ORACLE
+
+
 NAGARRO 2023
 Multithread to print odd even number in right sequence
 Java Streams // person id name, id unique, name same, map key--> name, value--> list of person having that name
@@ -356,3 +360,22 @@ Spring Actuator
 EJBs
 how to make .jar or .war file
 run jar file using cmd
+
+
+KENDRYL
+how to achieve Abstraction in JAVA
+Diff abstract class & interface
+can we have fields or variables in interface
+Hashtable vs hashmap, what happens when we add null value in hashtable
+can overload or override static method
+get the second last element from singly linkedlist
+reverse the string using stacks
+ways to handle exception
+when to use Runnable interface
+Treeset vs Hashset
+working of get method of Hashset & Hashmap
+Concurrent Hashmap vs Synchronized map
+Types of Joins
+Subquery & types of Subquery
+Advantages & Disadvantages of views
+get second largest salary from employee, without subquery

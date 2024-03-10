@@ -361,6 +361,22 @@ EJBs
 how to make .jar or .war file
 run jar file using cmd
 
+QUEST DIAGNOSTICS II
+About project
+architecture of present application
+features of Microservices
+concept of granular scaling/scaling
+Monolithic architecture
+Enable HTTP2 support in SpringBoot
+Actuator
+annotation path variables, when to use
+Live reload
+Hot swapping
+enable Logging in SpringBoot application
+what does Docker do
+Concept of caching
+Java config method
+
 
 KENDRYL
 how to achieve Abstraction in JAVA
@@ -379,3 +395,16 @@ Types of Joins
 Subquery & types of Subquery
 Advantages & Disadvantages of views
 get second largest salary from employee, without subquery
+
+
+LENSKART
+any scenario where optimized response time, in query, or code
+Given the following sequence : [23, 45, 1, 78, 192, 63], find the number which is closest to the number 55.
+if given tree is height balanced or not
+SOLID principles
+given linkedList is cyclic, singly LinkedList
+implement Stack using LinkedList
+Transactional annotation
+qualifier annotation
+
+Accolite, Morgan Staneley, Coforge

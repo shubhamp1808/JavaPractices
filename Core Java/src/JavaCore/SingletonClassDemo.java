@@ -6,7 +6,7 @@ package JavaCore;
 
 public class SingletonClassDemo {
 	public static void main(String[] args) {
-//		Demo demo = new Demo();
+		// Demo demo = new Demo();
 //		Demo demo1 = new Demo();
 		Demo demo = Demo.getObject();
 		System.out.println(demo);

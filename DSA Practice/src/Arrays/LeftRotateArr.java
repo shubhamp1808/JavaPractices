@@ -8,7 +8,7 @@ public class LeftRotateArr {
     public static void main(String[] args) {
         int[] sample ={2,3,6,119,1,2,232,8,4,7};
         int n = sample.length;
-        int d = 4;
+        int d = 1;
         if(d==1)
         System.out.println("After rotating left: " + Arrays.toString(rotateArray(sample, n)));
         else
